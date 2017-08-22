@@ -1,6 +1,35 @@
 import os
 import time
-data1=input("1.Fake access points 2.Deauth 3.Scan networks: ")
+data1=input("""
+``````````````````````````````````````````````````
+``````````````````.`````````...```..``````````````
+````````````syssyysyyyhhhhhhyyyysyyydo````````````
+````````````h+``.+shmmmNMMMMNmhs/.``hs````````````
+````````````yo:hNNNNNNNNNNMMMMMMMNy-hs.```````````
+```````````.hdNNNmmNNNNMNMNNMMMMMMMNms````````````
+````````````hhhMNNmdmNMNNMNNNmdmMMMhms````````````
+```````````.hs-hssyo--+hNNho-:syssy:hs.```````````
+``````````..dyommNNNmho+Nd+sdmNNNmdods.```````````
+````````````hNNddm/..:hNmmNs-../NhNMNs-.``````````
+````````````hNNNNddmhsNhmmddydmmmNNNNs.```````````
+````````````hNmohNNNNmhNNMNhNMNMNsoNNs.```````````
+```````````.hN:.+hdho:-+hy:-:+yhh/`/Ns.```````````
+```````````.dm:```.```````````````.sms.```````````
+````````````ho/yso+o:-:::::/-:++osh/yo.```````````
+```````````.ho`oNmNNdo:...-:omNmNN+.ys.```````````
+```````````.ho.-NNNNNNNNmNNNNNNNNd-.ys.```````````
+````````````ho``/mNNNNNNNNmmmNNNh:..yo````````````
+```````````.ho..`.+mNMNMmNNNmNd+....ys````````````
+````````````hy+ooooodNNNmdmmNhoooo++do````````````
+````````````-/s+::::::::-:s:::::/::::.````````````
+`````````````ss.+o/s/os/::y.ooooy:s-y.````````````
+`````````````//.//://///::o:///-//+s+.````````````
+`````````````````````````````````.-.``````````````
+
+1.Fake access points
+2.Deauth
+3.Scan networks
+: """)
 wlandata=input("What is your adapter example wlan0: ")
 
 def monitormode():
